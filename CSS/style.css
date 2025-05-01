@@ -4,11 +4,104 @@
     box-sizing: border-box;
 }
 
+/*ZONA DEL HEADER  */
 
-h1{
-text-align: center;
-padding: auto;
-border: 10px;
-color: blue;
-background-color: yellow;
+/*Contenedor que almacena BOX PRIN Y BOX SEARCH*/
+
+.contenedor-padre{
+    display: flex;
+    justify-content: space-between; /*Con este genero la separacion de los contenedores hijos */
+    align-items: flex-start;
+
 }
+
+/*Caja donde esta el H1 y P principal con su respectivo logo  */
+.box-prin{
+    background-color: gray;
+    margin: 1px 2px 3px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Con este centramos el contenido  */
+    padding: 10px;
+   
+    }
+
+    .title-h1{
+
+        font-style: oblique;
+        font-weight: 1000;
+        font-size: 30px;
+        color: black;
+        padding: 5px;
+        
+    }
+
+    .contenido-h1{
+        font-style: oblique;
+        font-weight: 200;
+        padding: 5px;
+        color: black;
+        
+
+    }
+
+    .bi-pc-display {
+        font-size: 50px; /* Hace el ícono más grande */
+        color: black; /* Lo pone de color negro */
+        
+        
+
+    }
+
+
+    /* ESTILOS ENLACES RAPIDOS */
+.box-enlaces{
+    display: flex;
+    flex-direction: column; /*Con esta linea acomodamos las demas cajas en columnas */
+    background-color: black;
+    gap: auto;
+  
+}
+
+.box-secun{
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+
+}
+
+.sty-link{
+
+    text-decoration: none;
+    color: white;
+}
+
+.bi-envelope-at-fill{
+
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+
+
+
+ /*FIN DE ESTILOS ENLACES RAPIDOS */
+
+
+
+/*Barra de estilo con la cual separamos */
+hr{
+   border: solid 2px red;
+}
+
+
+
+
+header{
+
+    background-color: black;
+}
+
+
+/*ZONA FINAL DEL HEADER  */
