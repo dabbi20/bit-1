@@ -2,16 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+
+
 
 /*ZONA DEL HEADER  */
 
 /*Contenedor que almacena BOX PRIN Y BOX SEARCH*/
 
+  
+
 .contenedor-padre{
     display: flex;
     justify-content: space-between; /*Con este genero la separacion de los contenedores hijos */
     align-items: flex-start;
+    margin-top: 0;
+
 
 }
 
@@ -90,8 +102,54 @@ gap: 5px;
 
 
 
+
+/*ESTILO DE LA BARRA DE BUSQUEDA */
+
+.box-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    
+}
+
+
+
+.box-search input[type="search"]{
+
+    width: 1300px;
+    margin-left: 150px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc
+    
+    
+}
+
+/*ICONO BOTON BUSCAR*/
+.button-search{
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+
+
+/*ESTILOS DEL CARRITO */
+
+
+.carrito{
+
+    background-color: black;
+    color: white;
+    border: none;
+    
+    
+}
+
 /*Barra de estilo con la cual separamos */
-hr{
+.barrita{
    border: solid 2px red;
 }
 
@@ -105,3 +163,124 @@ header{
 
 
 /*ZONA FINAL DEL HEADER  */
+
+
+/*ZONA INICAL DEL MAIN  */
+
+.contenedor-main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.contenedor-pm{
+
+    display: flex;
+    
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+}
+
+.contenerdor-1 {
+    border: 2px solid black;      /* Borde negro de 2px */
+    background-color: #f0f0f0;    /* Fondo gris claro */
+    padding: 20px;                /* Espacio interno */
+    border-radius: 10px;          /* (Opcional) Bordes redondeados */
+    max-width: 800px;             /* (Opcional) Ancho máximo */
+    margin: 30px auto;            /* Centrado horizontal con margen */
+    box-sizing: border-box;
+  }
+
+ 
+
+.img1-tamaño{
+
+  border-radius: 50px;
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    
+}
+
+
+
+
+
+
+
+.boton-carrito{
+
+    border: 3px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 10px 10px 10px 400px;
+}
+  
+
+
+/*SECCION FOOTER */
+
+footer{
+
+    background-color: black;
+}
+
+.footer-flex{
+
+    display: flex;
+    justify-content: space-between; /* Para separar esa caja al final */
+    align-items: flex-start;
+    
+  
+}
+
+.fotnav-flex{
+
+    text-decoration: none;
+    margin-top: 170px;
+}
+
+
+.box-prin{
+
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+
+
+}
+
+.p-footer-1{
+
+    color: white;
+}
+
+
+
+
+
+.copy-1{
+
+    margin-top: 130px;
+}
+
+.margin{
+
+  margin-top: 50px;
+}
+
+/*Carrucel  */
+
+/*IMAGENES CARRUCEL */
+
+
