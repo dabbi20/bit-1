@@ -150,7 +150,10 @@ gap: 5px;
 
 /*Barra de estilo con la cual separamos */
 .barrita{
-   border: solid 2px red;
+   border: solid 5px red;
+  background: black;
+   
+  
 }
 
 
@@ -176,28 +179,60 @@ header{
 }
 
 
+/*ZONA DE LA TABLA  */
+
+.table1{
+    width: 80%;
+}
+
+
 .contenedor-pm{
 
     display: flex;
-    
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    
+ 
     
 
 }
 
-.contenerdor-1 {
-    border: 2px solid black;      /* Borde negro de 2px */
-    background-color: #f0f0f0;    /* Fondo gris claro */
-    padding: 20px;                /* Espacio interno */
-    border-radius: 10px;          /* (Opcional) Bordes redondeados */
-    max-width: 800px;             /* (Opcional) Ancho máximo */
-    margin: 30px auto;            /* Centrado horizontal con margen */
-    box-sizing: border-box;
-  }
 
+   
+    .contenedor-2,.contenedor-3,.contenedor-4{
+
+        flex: 1 1 300px; /*LO AJUSTA AL ANCHO MINIMO */
+        box-sizing: border-box;
+        margin-left: 150px;
+    }
+
+  
+
+    .contenedor-pm {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+        gap: 24px;
+        padding: 20px;
+      }
+
+      .tarjeta {
+        padding: 24px;
+        box-sizing: border-box;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+     
+    
+      
+  
  
 
 .img1-tamaño{
@@ -279,8 +314,294 @@ footer{
   margin-top: 50px;
 }
 
-/*Carrucel  */
 
-/*IMAGENES CARRUCEL */
+
+
+/*SECCION DEL CARRUCEL */
+
+
+/*Esta parte borrar por si acaso*/
+
+.carrusel-componentes{
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+ 
+  width: 100%;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+}
+
+.h-bordes{
+
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.carrusel-p{
+
+  width: 100%;
+  margin: 0px 0px;
+
+}
+
+@media(min-width: 768px){
+
+.carrusel-p{
+
+  margin: 0px 60px
+}
+
+}
+
+.carrusel-p h2{
+
+  font-size: 45px;
+  line-height: 38px;
+  padding-bottom: 50px;
+  opacity: .9;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+}
+
+.carrusel-list{
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  width:fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+
+}
+
+.carrusel-track{
+
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+
+.carrusel{
+
+  position: relative;
+  width: 210px;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+
+.carrusel h4{
+
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.carrusel h4 small{
+
+  font-size: 15px;
+  display: block;
+
+}
+
+.carrusel a img{
+
+  object-fit: cover;
+  height: 300px;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0,5);
+  transition: .3s ease-in-out;
+
+}
+
+@media(min-width:768px) {
+ .carrusel{
+
+  width: 275px;
+ } 
+
+ .carrusel a img{
+
+  width: 250px;
+ }
+
+}
+
+.carrusel-arrow{
+
+  border-radius: 30px;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.carrusel-arrow:focus{
+
+  outline: 0;
+}
+
+.carrusel-arrow svg{
+  width: 12px;
+  height: 100%;
+  color: rgba(0, 0, 0, 7);
+}
+
+.carrusel-prev{
+
+  left: 0px;
+
+}
+
+.carrusel-next{
+
+  right: 0px;
+}
+
+
+
+/*SECCION DEL FORMULARIO  */
+.main-login{
+    background-color: black;
+}
+
+.forms-container {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre los formularios */
+    gap: 20px; /* Espacio entre los formularios */
+    background-color: black;
+  }
+
+    .form1 {
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 45%;  /* Para que no ocupe toda la pantalla */
+        text-align: center;
+        background-color: black;
+      }
+
+      .form2{
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 45%;  /* Para que no ocupe toda la pantalla */
+        text-align: center;
+        background-color: black;
+
+      }
+    
+      .form1, .form2{
+
+        padding: 30px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 45%;
+        text-align: center;
+       
+      }
+      
+      
+      .form .subform input{
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-size: 16px;
+      }
+
+      .subtitle {
+        text-align: center; 
+        margin-top: 50px; 
+        margin-bottom: 40px; 
+        color: white;
+      }
+      
+      .subtitle h2 {
+        font-size: 2.5rem;
+        color: white; 
+        font-weight: bold; 
+        margin-bottom: 10px; 
+      }
+      
+      .subtitle h3 {
+        font-size: 1.5rem; 
+        color: white; 
+        font-weight: 500; 
+        margin-top: 0; 
+      }
+      
+
+.subform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+    
+   
+
+  .subform a {
+    font-size: 14px;
+    color: #ff0000;
+    
+  }
+
+  .input-tex{
+
+    color: white;
+  }
+
+.btn-f{
+background-color: blue;
+color: white;
+padding: 10px 15px;
+font-size: 18px;
+border-radius: 10px;
+border: none;
+
+}
+
+.btn-em{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+
+
+
 
 
