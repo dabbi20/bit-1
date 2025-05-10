@@ -13,7 +13,7 @@ Sitio web enfocado a las ventas de las computadoras que contiene las siguientes 
 
 Este proyecto fue desarrollado por David Carrasco
 
-###  Diseño u Maqueta
+### Diseño u Maqueta
 
 Se procedio a desarrollar mi maqueta en Figma con una paleta de colores y sus diferentes deiseños teniendo en cuenta los parametros de UI/UX
 
@@ -50,12 +50,9 @@ Tambien cuente con un responsive con las siguientes medidas.
 
 Y estilos con una paleta de colores acorde a la tematica de la clase.
 
-4. JavaScript 
+4. JavaScript
 
 Este fue el punto mas flojito y con menos detalle, aclaro que el carrusel hecho en el proyecto se implemento viendo un tutorial, y el captural los datos y la informacion si es por lo visto en la clase.
 
 - Carrusel
 - Formulario
-
-
-
