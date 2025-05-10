@@ -1,17 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  
-  
-  
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
 
 
 
@@ -19,105 +19,110 @@
 
 /*Contenedor que almacena BOX PRIN Y BOX SEARCH*/
 
-  
 
-.contenedor-padre{
-    display: flex;
-    justify-content: space-between; /*Con este genero la separacion de los contenedores hijos */
-    align-items: flex-start;
-    margin-top: 0;
+
+.contenedor-padre {
+  display: flex;
+  justify-content: space-between;
+  /*Con este genero la separacion de los contenedores hijos */
+  align-items: flex-start;
+  margin-top: 0;
 
 
 }
 
 /*Caja donde esta el H1 y P principal con su respectivo logo  */
-.box-prin{
-    background-color: gray;
-    margin: 1px 2px 3px 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /*Con este centramos el contenido  */
-    padding: 10px;
-   
-    }
+.box-prin {
+  background-color: gray;
+  margin: 1px 2px 3px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*Con este centramos el contenido  */
+  padding: 10px;
 
-    .title-h1{
-
-        font-style: oblique;
-        font-weight: 1000;
-        font-size: 30px;
-        color: black;
-        padding: 5px;
-        
-    }
-
-    .contenido-h1{
-        font-style: oblique;
-        font-weight: 200;
-        padding: 5px;
-        color: black;
-        
-
-    }
-
-    .bi-pc-display {
-        font-size: 50px; /* Hace el ícono más grande */
-        color: black; /* Lo pone de color negro */
-        
-        
-
-    }
-
-
-    /* ESTILOS ENLACES RAPIDOS */
-.box-enlaces{
-    display: flex;
-    flex-direction: column; /*Con esta linea acomodamos las demas cajas en columnas */
-    background-color: black;
-    gap: auto;
-  
 }
 
-.box-secun{
-display: flex;
-flex-direction: column;
-gap: 5px;
+.title-h1 {
+
+  font-style: oblique;
+  font-weight: 1000;
+  font-size: 30px;
+  color: black;
+  padding: 5px;
+
+}
+
+.contenido-h1 {
+  font-style: oblique;
+  font-weight: 200;
+  padding: 5px;
+  color: black;
 
 
 }
 
-.sty-link{
+.bi-pc-display {
+  font-size: 50px;
+  /* Hace el ícono más grande */
+  color: black;
+  /* Lo pone de color negro */
 
-    text-decoration: none;
-    color: white;
-}
 
-.bi-envelope-at-fill{
 
-    font-size: 20px;
-    padding: 5px;
-    color: white;
 }
 
 
+/* ESTILOS ENLACES RAPIDOS */
+.box-enlaces {
+  display: flex;
+  flex-direction: column;
+  /*Con esta linea acomodamos las demas cajas en columnas */
+  background-color: black;
+  gap: auto;
 
- /*FIN DE ESTILOS ENLACES RAPIDOS */
+}
+
+.box-secun {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+
+}
+
+.sty-link {
+
+  text-decoration: none;
+  color: white;
+}
+
+.bi-envelope-at-fill {
+
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+}
+
+
+
+/*FIN DE ESTILOS ENLACES RAPIDOS */
 
 
 
 
 /*ESTILO DE LA BARRA DE BUSQUEDA */
 
-.box-search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 250px;
-    
+.box-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+
 }
 
 
-
+/*
 .box-search input[type="search"]{
 
     width: 1300px;
@@ -129,42 +134,53 @@ gap: 5px;
     
     
 }
+*/
+
+.box-search input[type="search"] {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+}
 
 /*ICONO BOTON BUSCAR*/
-.button-search{
-    background-color: black;
-    color: white;
-    border: none;
-    
+.button-search {
+  background-color: black;
+  color: white;
+  border: none;
+
 }
 
 
 /*ESTILOS DEL CARRITO */
 
 
-.carrito{
+.carrito {
 
-    background-color: black;
-    color: white;
-    border: none;
-    
-    
+  background-color: black;
+  color: white;
+  border: none;
+
+
 }
 
 /*Barra de estilo con la cual separamos */
-.barrita{
-   border: solid 5px red;
+.barrita {
+  border: solid 5px red;
   background: black;
-   
-  
+
+
 }
 
 
 
 
-header{
+header {
 
-    background-color: black;
+  background-color: black;
 }
 
 
@@ -173,15 +189,17 @@ header{
 
 /*ZONA INICAL DEL MAIN  */
 
+.main-index {
+  background-color: black;
+}
 
 
+.contenedor-main {
 
-.contenedor-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
 }
 
 
@@ -189,11 +207,11 @@ header{
 
 /*ZONA DE LA TABLA  */
 
-.table1{
-    width: 80%;
+.table1 {
+  width: 80%;
 }
 
-
+/*
 .contenedor-pm{
 
     display: flex;
@@ -206,76 +224,104 @@ header{
     
 
 }
+*/
 
-
-   
-    .contenedor-2,.contenedor-3,.contenedor-4{
-
-        flex: 1 1 300px; /*LO AJUSTA AL ANCHO MINIMO */
-        box-sizing: border-box;
-        margin-left: 150px;
-    }
-
-  
-
-    .contenedor-pm {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-        gap: 24px;
-        padding: 20px;
-      }
-
-      .tarjeta{
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-        background-color: #2c2c2c;
-        color: white;
-      }
+.contenedor-pm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Esto está bien para pantallas grandes */
+  gap: 24px;
+  padding: 20px;
+}
 
 
 
-      .img-tarjeta{
+.contenedor-2,
+.contenedor-3,
+.contenedor-4 {
 
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-bottom: 15px;
-      }
+  flex: 1 1 300px;
+  /*LO AJUSTA AL ANCHO MINIMO */
+  box-sizing: border-box;
+  margin-left: 150px;
+}
 
-      .titulos-pc{
-        font-size: 22px;
-        margin: 10px 0;
-      }
 
-      .contenido-pc{
 
-        font-size: 14px;
-        margin-bottom: 10px;
-      }
+.contenedor-pm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columnas iguales */
+  gap: 24px;
+  padding: 20px;
+}
 
-      .lista-caracteristicas{
+.tarjeta {
 
-        list-style: disc;
-        padding-left: 20px;
-        margin: 10px 0;
-        text-align: left;
-      }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: #2c2c2c;
+  color: white;
+}
 
-      .precio{
 
-        font-family: 18px;
-        color: #00ff88;
-        margin: 10px 0;
-      }
-     
-    
-      
-  
- 
+
+.img-tarjeta {
+
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.index-sub {
+  font-size: 35px;
+  color: white;
+}
+
+.titulos-pc {
+  font-size: 35px;
+  margin: 10px 0;
+  color: white;
+}
+
+.contenido-pc {
+
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tex-indlis {
+
+  color: white;
+  font-size: 20px;
+
+}
+
+.lista-caracteristicas {
+
+  list-style: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+  text-align: left;
+
+}
+
+.precio {
+
+  font-family: 18px;
+  color: #00ff88;
+  margin: 10px 0;
+}
+
+
+
+
+/*
 
 .img1-tamaño{
 
@@ -287,9 +333,21 @@ header{
     
 }
 
+*/
 
 
-.boton-carrito{
+.img1-tamaño {
+  border-radius: 20px;
+  border: 5px solid black;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.boton-carrito {
   background-color: #ff0000;
   border: none;
   color: white;
@@ -304,66 +362,57 @@ header{
 
 
 
-/*
-.boton-carrito{
 
-    border: 3px solid red;
-    border-radius: 10px;
-    color: white;
-    background-color: red;
-    margin: 10px 10px 10px 400px;
-}
-  
-*/
 
 /*SECCION FOOTER */
 
-footer{
+footer {
 
-    background-color: black;
+  background-color: black;
 }
 
-.footer-flex{
+.footer-flex {
 
-    display: flex;
-    justify-content: space-between; /* Para separar esa caja al final */
-    align-items: flex-start;
-    
-  
-}
-
-.fotnav-flex{
-
-    text-decoration: none;
-    margin-top: 170px;
-}
-
-
-.box-prin{
-
-    display: flex;
-    align-items: center;
-
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  /* Para separar esa caja al final */
+  align-items: flex-start;
 
 
 }
 
-.p-footer-1{
+.fotnav-flex {
 
-    color: white;
+  text-decoration: none;
+  margin-top: 170px;
+}
+
+
+.box-prin {
+
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+
+
+}
+
+.p-footer-1 {
+
+  color: white;
 }
 
 
 
 
 
-.copy-1{
+.copy-1 {
 
-    margin-top: 130px;
+  margin-top: 130px;
 }
 
-.margin{
+.margin {
 
   margin-top: 50px;
 }
@@ -376,42 +425,42 @@ footer{
 
 /*Esta parte borrar por si acaso*/
 
-.carrusel-componentes{
+.carrusel-componentes {
 
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  
- 
+
+
   width: 100%;
   align-items: center;
   background-color: rgb(49, 49, 49);
 }
 
-.h-bordes{
+.h-bordes {
 
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-.carrusel-p{
+.carrusel-p {
 
   width: 100%;
   margin: 0px 0px;
 
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
 
-.carrusel-p{
+  .carrusel-p {
 
-  margin: 0px 60px
+    margin: 0px 60px
+  }
+
 }
 
-}
-
-.carrusel-p h2{
+.carrusel-p h2 {
 
   font-size: 45px;
   line-height: 38px;
@@ -423,12 +472,12 @@ footer{
   color: #ffffff;
 }
 
-.carrusel-list{
+.carrusel-list {
 
   position: relative;
   display: flex;
   align-items: center;
-  width:fit-content;
+  width: fit-content;
   height: 304px;
   padding: 10px 0px;
   margin: 0px auto;
@@ -437,7 +486,7 @@ footer{
 
 }
 
-.carrusel-track{
+.carrusel-track {
 
   position: relative;
   top: 0;
@@ -447,7 +496,7 @@ footer{
   transition: .5s ease-in-out;
 }
 
-.carrusel{
+.carrusel {
 
   position: relative;
   width: 210px;
@@ -458,7 +507,7 @@ footer{
   height: 100%;
 }
 
-.carrusel h4{
+.carrusel h4 {
 
   position: absolute;
   z-index: 1;
@@ -468,38 +517,38 @@ footer{
   padding: 15px;
 }
 
-.carrusel h4 small{
+.carrusel h4 small {
 
   font-size: 15px;
   display: block;
 
 }
 
-.carrusel a img{
+.carrusel a img {
 
   object-fit: cover;
   height: 300px;
   width: 200px;
   border-radius: 15px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0,5);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0, 5);
   transition: .3s ease-in-out;
 
 }
 
 @media(min-width:768px) {
- .carrusel{
+  .carrusel {
 
-  width: 275px;
- } 
+    width: 275px;
+  }
 
- .carrusel a img{
+  .carrusel a img {
 
-  width: 250px;
- }
+    width: 250px;
+  }
 
 }
 
-.carrusel-arrow{
+.carrusel-arrow {
 
   border-radius: 30px;
   background-color: #ffffff;
@@ -512,166 +561,189 @@ footer{
   cursor: pointer;
 }
 
-.carrusel-arrow:focus{
+.carrusel-arrow:focus {
 
   outline: 0;
 }
 
-.carrusel-arrow svg{
+.carrusel-arrow svg {
   width: 12px;
   height: 100%;
   color: rgba(0, 0, 0, 7);
 }
 
-.carrusel-prev{
+.carrusel-prev {
 
   left: 0px;
 
 }
 
-.carrusel-next{
+.carrusel-next {
 
   right: 0px;
 }
 
 
 
-/*SECCION DEL FORMULARIO  */
-.main-login{
-    background-color: black;
+/*SECCION DEL FORMULARIO login */
+.main-login {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .forms-container {
-    display: flex;
-    justify-content: space-between; /* Espaciado entre los formularios */
-    gap: 20px; /* Espacio entre los formularios */
-    background-color: black;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* Espacio entre los formularios */
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+  background-color: black;
+}
 
-    .form1 {
-        background: #fff;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        max-width: 45%;  /* Para que no ocupe toda la pantalla */
-        text-align: center;
-        background-color: black;
-      }
+.form1,
+.form2 {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 45%;
+  /* Para que no ocupe toda la pantalla */
+  text-align: center;
+  background-color: black;
+}
 
-      .form2{
-        background: #fff;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        max-width: 45%;  /* Para que no ocupe toda la pantalla */
-        text-align: center;
-        background-color: black;
 
-      }
-    
-      .form1, .form2{
 
-        padding: 30px;
-        border-radius: 8px;
-        width: 100%;
-        max-width: 45%;
-        text-align: center;
-       
-      }
-      
-      
-      .form .subform input{
-        width: 100%;
-        padding: 12px;
-        margin-bottom: 15px;
-        border: 2px solid black;
-        border-radius: 20px;
-        font-size: 16px;
-      }
+.form1,
+.form2 {
 
-      .subtitle {
-        text-align: center; 
-        margin-top: 50px; 
-        margin-bottom: 40px; 
-        color: white;
-      }
-      
-      .subtitle h2 {
-        font-size: 2.5rem;
-        color: white; 
-        font-weight: bold; 
-        margin-bottom: 10px; 
-      }
-      
-      .subtitle h3 {
-        font-size: 1.5rem; 
-        color: white; 
-        font-weight: 500; 
-        margin-top: 0; 
-      }
-      
+  background-color: #1c1c1c;
+  color: white;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+
+}
+
+
+.subform input {
+
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #2a2a2a;
+  color: white;
+  outline: none;
+}
+
+.subform button {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.subtitle h2 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  margin-top: 0;
+}
+
 
 .subform {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-    
-   
-
-  .subform a {
-    font-size: 14px;
-    color: #ff0000;
-    
-  }
-
-  .input-tex{
-
-    color: white;
-  }
-
-.btn-f{
-background-color: blue;
-color: white;
-padding: 10px 15px;
-font-size: 18px;
-border-radius: 10px;
-border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
 }
 
-.btn-em{
-    background-color: cadetblue;
-    color: white;
-    padding: 10px 15px;
-    font-size: 18px;
-    border-radius: 10px;
-    border: none;
 
+
+
+
+
+
+.btn-f {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.btn-em {
+  background-color: cadetblue;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.linea-roja {
+  width: 100%;
+  height: 4px;
+  background-color: red;
+  margin: 0;
+  border: none;
 }
 
 
 /*Seccion del formulario  */
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.body-contactanos{
+.body-contactanos {
 
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
- 
+
 }
 
-.main-contactanos{
+.main-contactanos {
 
   flex: 1;
   display: flex;
@@ -681,7 +753,7 @@ html, body {
   background-color: gray;
 }
 
-.form-contactanos{
+.form-contactanos {
 
   background-color: #fefefe;
   padding: 40px 35px;
@@ -700,15 +772,15 @@ html, body {
   gap: 15px;
 }
 
-.h2-contactame{
+.h2-contactame {
 
   color: #444;
   font-size: 30px;
   margin-bottom: 25px;
-  
+
 }
 
-.label-contactame{
+.label-contactame {
 
   color: #283629;
   font-size: 15px;
@@ -716,11 +788,12 @@ html, body {
   color: #333;
   margin-bottom: 15px;
   text-align: left;
-  
-  
+
+
 }
 
-.input-contactame, .textarea-contactame{
+.input-contactame,
+.textarea-contactame {
 
   padding: 13px 18px;
   border: 1.5px solid #333;
@@ -733,14 +806,15 @@ html, body {
   outline: none;
 }
 
-.input-contactame::placeholder, .textarea-contactame::placeholder{
+.input-contactame::placeholder,
+.textarea-contactame::placeholder {
 
   color: #aaa;
- 
+
 
 }
 
-.form-txt{
+.form-txt {
 
   margin-bottom: 30px;
   display: flex;
@@ -749,7 +823,7 @@ html, body {
   margin-top: 10px;
 }
 
-.form-txt a{
+.form-txt a {
   color: black;
   font-size: 14px;
   font-weight: 600;
@@ -765,34 +839,135 @@ html, body {
   background-color: #51d94c;
   box-shadow: 0 0 20px rgb(25, 254, 0, 0.4);
   cursor: pointer;
-  
+
 }
 
-.btn.btn:hover{
+.btn.btn:hover {
   background-color: #51d94c;
 }
 
-@media   ( max-width:  991px) { 
-  
- .body-contactanos{
+@media (max-width: 991px) {
 
-  padding: 30px;
- }
+  .body-contactanos {
 
- .form-contactanos{
+    padding: 30px;
+  }
 
-  padding: 30px 50px;
-  width: 100%;
- }
+  .form-contactanos {
 
- .input-contactame{
-  padding: 15px;
- }
+    padding: 30px 50px;
+    width: 100%;
+  }
 
-   
-  
-};
+  .input-contactame {
+    padding: 15px;
+  }
 
 
 
+}
 
+;
+
+/* =======================
+   ESTILOS PARA MOVIL <= 480px
+   ======================= */
+@media (max-width: 480px) {
+  .contenedor-padre {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box-enlaces {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .box-search {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .box-search input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .carrito,
+  .button-search {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contenedor-main,
+  .contenedor-pm {
+    padding: 0 10px;
+  }
+
+  .contenerdor-1 table,
+  .contenerdor-1 tr,
+  .contenerdor-1 td {
+    display: block;
+    width: 100%;
+  }
+
+  .contenido-imagen {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .tarjeta {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* =======================
+   ESTILOS PARA TABLET <= 768px
+   ======================= */
+@media (max-width: 768px) {
+  .contenedor-padre {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box-enlaces {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .box-search {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .box-search input {
+    width: 80%;
+  }
+
+  .contenedor-pm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .contenerdor-1 table,
+  .contenerdor-1 tr,
+  .contenerdor-1 td {
+    display: block;
+    width: 100%;
+  }
+
+  .contenido-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
